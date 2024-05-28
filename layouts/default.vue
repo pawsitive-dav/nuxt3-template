@@ -1,17 +1,9 @@
-<script setup lang="ts"></script>
-
 <template>
-  <AppLayout>
-    <AppBar />
-    <AppBody>
+  <app-layout>
+    <app-bar />
+    <app-body>
       <NuxtPage />
-    </AppBody>
-    <AppFooter />
-  </AppLayout>
+    </app-body>
+    <app-footer />
+  </app-layout>
 </template>
-
-<style scoped>
-main {
-  flex: 1;
-}
-</style>

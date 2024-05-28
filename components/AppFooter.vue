@@ -1,8 +1,11 @@
 <template>
-  <div>
-    <div class="pb-5" style="background-color: aqua">Footer</div>
-    <div class="overline">
-      Copyright © Company Name Limited All Rights Reserved
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 MyCompany. All rights reserved.</p>
+      <div class="mt-4">
+        <a href="#" class="hover:underline">Privacy Policy</a> |
+        <a href="#" class="hover:underline">Terms of Service</a>
+      </div>
     </div>
-  </div>
+  </footer>
 </template>

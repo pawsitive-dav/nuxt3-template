@@ -9,7 +9,11 @@ export default defineNuxtConfig({
 
   css: ["@/assets/css/main.css"],
 
-  modules: ["@nuxtjs/i18n"],
+  colorMode: {
+    preference: "dark",
+  },
+
+  modules: ["@nuxtjs/i18n", "@nuxt/ui"],
 
   i18n: {
     locales: [
